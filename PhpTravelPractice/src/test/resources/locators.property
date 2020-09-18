@@ -1,0 +1,10 @@
+// login xpath
+loc_chat = //div[@aria-label='Open LiveChat chat widget']
+
+
+loc_name = //input[@id='name']
+loc_whatsapp = //input[@id='8wpcojheqm_157907312787606648']
+loc_email = //input[@id='email']
+loc_checkbox = //input[@type='checkbox']
+loc_option = //select[@id='3qlvgz3pgje_157907312787607529']
+loc_submit = //span[text()='Start the chat']
