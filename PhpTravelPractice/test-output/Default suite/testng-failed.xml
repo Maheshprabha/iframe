@@ -5,8 +5,8 @@
     <classes>
       <class name="com.atmecs.phptravel.testscript.TestScript">
         <methods>
-          <include name="handlingFrames"/>
           <include name="invokeBrowser"/>
+          <include name="handlingFrames"/>
         </methods>
       </class> <!-- com.atmecs.phptravel.testscript.TestScript -->
     </classes>
