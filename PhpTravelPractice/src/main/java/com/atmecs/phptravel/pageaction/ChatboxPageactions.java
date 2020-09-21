@@ -1,27 +1,18 @@
-package com.atmecs.phptravel.testscript;
+package com.atmecs.phptravel.pageaction;
 
+import java.util.Properties;
 
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
-import com.atmecs.phptravel.baseclass.BaseClass;
+import com.atmecs.phptravel.filepath.FilePath;
+import com.atmecs.phptravel.readerlocation.ReaderLocation;
+import com.atmecs.phptravels.commonhelpers.CommonHelpers;
 
-import com.atmecs.phptravel.pageaction.ChatboxPageactions;
-
-
-public class TestScript extends BaseClass {
-	ChatboxPageactions chatbox = new ChatboxPageactions();
-	public void chatboxaction() throws Exception {
-		chatbox.handlingFrames();
-	}
-}
-	
-	
-	
-	
-	
-	
-	
-/*	static Properties property;
+public class ChatboxPageactions {
+	static Properties property;
 	ReaderLocation read = new ReaderLocation();
+	WebDriver driver;
 
 
 	@Test
@@ -31,6 +22,7 @@ public class TestScript extends BaseClass {
 	
 		
 		property = ReaderLocation.readLocation(FilePath.User_path);
+		driver.switchTo().frame("chat-Widget");
 		CommonHelpers.findFrame(driver, property.getProperty("loc_chat"));
 
 	    
@@ -52,8 +44,10 @@ public class TestScript extends BaseClass {
         //click submit button
         CommonHelpers.clickAction(driver, property.getProperty("loc_submit"));
 
-*/
 
 
+	}
 		
-	
+
+
+}

@@ -1,4 +1,4 @@
-package com.atmecs.commonhelpers;
+package com.atmecs.phptravels.commonhelpers;
 
 import java.util.Iterator;
 import java.util.List;

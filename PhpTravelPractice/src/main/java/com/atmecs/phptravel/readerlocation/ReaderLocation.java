@@ -1,4 +1,4 @@
-package com.atmecs.readerlocation;
+package com.atmecs.phptravel.readerlocation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
